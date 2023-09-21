@@ -1,0 +1,60 @@
+.namebar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(99, 158, 247), rgb(201, 217, 252), rgb(113, 221, 185));
+    border: 7px solid rgb(74, 74, 167);
+    border-radius: 30px; 
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-grow: 2;
+    flex-shrink: 1;
+    align-self: center;
+    /* max-width: fit-content; */
+    box-sizing: border-box;
+}
+
+.logo {
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-self: center;
+    max-width: fit-content;
+}
+
+.logo img {
+    max-height: 2%;
+    width: 20vw;
+}
+
+.projname {
+    flex: 2 1 1%;
+    /* flex-grow: 2;
+    flex-shrink: 1;
+    height: 1%; */
+    margin: 0;
+    align-self: center;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.projdesc {
+    flex: 1 2 1%;
+    /* flex-grow: 1;
+    flex-shrink: 2;
+    height: 1%; */
+    margin: 0;
+    align-self: center;
+    font-size: 2.5em;
+    text-align: center;
+}
