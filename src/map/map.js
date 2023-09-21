@@ -72,7 +72,7 @@ class Map extends Component {
                 const randomColor = this.getRandomColor();
 
                 const icon = L.icon({
-                    iconUrl: `src\map\${getRandomColor()}.png`,
+                    iconUrl: `src\map\${getRandomColor}.png`,
                     iconSize: [32, 32],
                     iconAnchor: [16, 32],
                 });
